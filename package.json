@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --ext .ts,.jsx,.tsx --fix --quiet ./packages"
+    "lint": "eslint --ext .js,.ts,.jsx,.tsx --fix --quiet ./packages"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
     "prettier": "^2.8.7",
+    "rollup": "^3.20.2",
     "typescript": "^5.0.3"
   }
 }
